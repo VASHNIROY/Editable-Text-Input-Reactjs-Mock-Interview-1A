@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5d0fe;
+  height: 100vh;
+}
+
+.card {
+  width: 30%;
+  height: 30%;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputContainer {
+  display: flex;
+}
+
+.input-element {
+  height: 30px;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #d946ef;
+  border: none;
+  color: white;
+  margin-left: 10px;
+  height: 30px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-radius: 3px;
+  justify-content: center;
+  width: 50px;
+}
+
+.name {
+  font-size: 24px;
+  font-family: 'ROBOTO';
+}
